@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blog</string>
+    <string name="reading_quote">If you don’t like to read, you haven’t found the right book.</string>
+    <string name="headind1">A vase purchased for $3.99 sold for more than $100,000 at auction</string>
+    <string name="body1">A person bought a glass vase for $3.99 at a Goodwill in Richmond, Va., and then learned it was crafted by a famous Italian glass designer Carlo Scarpa. At auction, it went for more than $100,000.</string>
+    <string name="headind2">Holy Mole-y: A sniffer dog helps rediscover a rare mole</string>
+    <string name="body2">November 30, 2023 • The De Winton\'s golden mole was last spotted in 1936. But with the help of a mole-sniffing dog and new environmental DNA analysis, researchers are taking it off the most wanted lost species list.</string>
+    <string name="headind3">Bowie the lobster is half-blue, half-red, and all kinds of rare</string>
+    <string name="body3">November 27, 2023 • Bowie, named after pop icon David Bowie, has clawed its way to internet stardom. The split-color crustacean was caught by a lobster fisherman off the coast of Maine.</string>
+    <string name="headind4">Rat plague hits an Australian coastal town, and thousands more wash up on shore</string>
+    <string name="body4">November 27, 2023 • Months after the local shire\'s council discussed what it dubbed a "Rat Plague," thousands of rats are creating havoc in a small town on the coast in Queensland.</string>
+    <string name="headind5">A car-sized tumbleweed made quite a scene on a California highway</string>
+    <string name="body5">November 24, 2023 • A person shared video of "the mother of all tumbleweeds" on social media this week. That got us thinking about where tumbleweeds come from and their propensity for taking over roads and neighborhoods.</string>
+    <string name="headind6">Colorado funeral home owners arrested following the discovery of 190 decaying bodies</string>
+    <string name="body6">November 8, 2023 • Police searched the Return to Nature funeral home after receiving reports of an "abhorrent smell." The owners are now facing charges of theft, forgery, money laundering and the abuse of a corpse.</string>
+
+    <string name="example">PLease Start Writting Better Git Commits</string>
+    <string name="example2">Git is an important part of daily programmingn(especially if you\'re working with a team) and is widely used inthe software industry.Since there are many various commands you can use,\mastering Git takes time. But some commands are used more frequently(some daily). So in this post, I will share and explain the 10 most usedGit commands that every developer should know.</string>
+</resources>
