@@ -41,6 +41,14 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 String email=binding.loginMailET.getText().toString();
                 String pass=binding.loginPasswordET.getText().toString();
+                if(email.isEmpty()){
+                    binding.loginMailET.setError("This field is mandatory");
+                    return;
+                }
+                if(pass.isEmpty()){
+                    binding.loginPasswordET.setError("This field is mandatory");
+                    return;
+                }
                 auth.signInWithEmailAndPassword(email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {

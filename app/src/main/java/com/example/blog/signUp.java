@@ -29,12 +29,21 @@ public class signUp extends AppCompatActivity {
         setContentView(binding.getRoot());
         auth=FirebaseAuth.getInstance();
         database=FirebaseDatabase.getInstance();
-        
+
         binding.SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 String email=binding.emailET.getText().toString();
                 String pass=binding.passwordET.getText().toString();
+                if(email.isEmpty()){
+                    binding.emailET.setError("This field is mandatory");
+                    return;
+                }
+                if(pass.isEmpty()){
+                    binding.passwordET.setError("This field is mandatory");
+                    return;
+                }
                 auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
