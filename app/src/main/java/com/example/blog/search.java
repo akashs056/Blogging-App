@@ -67,7 +67,7 @@ public class search extends AppCompatActivity {
             }
         });
     }
-
+    // TO perform search
     private void performSearch(String query) {
         searchList.clear();
         if (!query.isEmpty()) {
