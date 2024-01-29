@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        // Added Some Inportant Comments to Debug easily
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
